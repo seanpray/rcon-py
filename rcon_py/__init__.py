@@ -1,6 +1,11 @@
 import socket
 import threading
 
+__version__ = "0.1"
+__doc__ = "barebones rcon implementation in python"
+__author__ = "Sean Ray"
+__license__ = "MIT"
+
 HEADER_LEN = 10
 MAX_PACKET = 4110
 

@@ -9,3 +9,9 @@ c = Client("0.0.0.0", 1200, timeout_ms=100)
 c.auth("pass")
 print(c.send("list").body)
 ```
+
+#### install
+
+```
+$ pip install git+https://github.com/notseanray/rcon-py.git#egg=rcon_py
+```
